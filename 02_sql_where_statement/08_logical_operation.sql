@@ -47,3 +47,4 @@ where (department_id = 100 or manager_id = 108)
 select EMPLOYEE_ID,FIRST_NAME,DEPARTMENT_ID,MANAGER_ID
 from employees
 where (department_id = 90 or MANAGER_ID = 100) and FIRST_NAME LIKE '__e%';
+
