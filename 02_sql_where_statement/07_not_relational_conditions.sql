@@ -57,12 +57,3 @@ WHERE not EXISTS(
 
 select * from DEPARTMENTS where DEPARTMENT_ID = 10;
 
-
-
-
-
-
-
-
-
-
