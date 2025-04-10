@@ -13,3 +13,4 @@ where EMAIL is null;
 select COUNT(EMPLOYEE_ID) as jumlah
 from EMPLOYEES
 WHERE COMMISSION_PCT is null;
+
