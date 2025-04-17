@@ -17,5 +17,5 @@ SELECT
     CONCAT(FIRST_NAME, concat(' ', LAST_NAME)) as fullname,
     LOWER(FIRST_NAME) as lower_first_name,
     INITCAP(LOWER(FIRST_NAME)) as initcap_first_name,
-    SUBSTR(FIRST_NAME, 1, 2) as substr_first_name
+    SUBSTR(FIRST_NAME, 2, 1) as substr_first_name
 from employees;
