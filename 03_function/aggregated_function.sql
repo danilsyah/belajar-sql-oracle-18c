@@ -8,3 +8,8 @@ SELECT
     MIN(HIRE_DATE) as min_hire_date,
     SUM(SALARY) as total_gaji
 from employees;
+
+select SALARY
+from EMPLOYEES order by SALARY desc;
+
+select DISTINCT JOB_ID from EMPLOYEES;
